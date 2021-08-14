@@ -4,13 +4,10 @@ import java.util.Scanner;
 
 public class Activity13 {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
-		int diff=23;
-		int perimeter=206;
-		int eqa=perimeter/2;
-		System.out.print(63*40);
+		int a =23;
+		int p=206;
+		int b=p/2;
+		System.out.print("Area: "+((a+b)/2)*(b-((a+b)/2)));
 	}
-		
 
 }
